@@ -1,0 +1,61 @@
+{
+    "name": "SG rule set",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+    	{
+    		"id": "PTE0005",
+    		"action": "None",
+    		"justification": "Not interested in this warning."
+    	},
+    	{
+    		"id": "AA0005",
+    		"action": "None",
+    	"justification": "Only use BEGIN..END to enclose compound statements. Not interested in this warning."
+    	},
+    	{
+    		"id": "AA0139",
+    		"action": "None",
+    		"justification": "Possible overflow assigning 'Text' to '*'. Not interested in this warning."
+		},
+		{
+			"id": "PTE0002",
+			"action": "None",
+			"justification": "ID must be within the range 50000..99999. Not interested in this warning."
+		},
+		{
+			"id": "AA0210",
+			"action": "None",
+			"justification": "The table * does not contain the key with the field *. Not interested in this warning."
+		},
+		{
+			"id": "AA0215",
+			"action": "None",
+			"justification": "The file * has an incorrect name. The valid name is *. Not interested in this warning."
+		},
+		{
+			"id": "AA0214",
+			"action": "None",
+			"justification": "The record * should be modified before saving to the database. Hide warning until a bug is fixed in CodeCop."
+		},
+		{
+			"id": "AL0603",
+			"action": "None",
+		    "justification": "Implicit conversion from Enum to Integer. Hide warning until a bug is fixed in CodeCop."
+		},
+		{
+			"id": "AA0087",
+			"action": "None",
+			"justification": "Lowering permissions should only be used in tests. Hide warning until bug is fixed in CodeCop."
+		},
+		{
+			"id": "AA0072",
+			"action": "None",
+			"justification": "The name of XXX is not valid. The name of variables and parameters must be suffixed with the type or object name. This a bad naming convention."
+		},
+		{
+			"id": "AA0218",
+			"action": "None",
+			"justification": "You must write a tooltip in the Tooltip property for all controls of type Action and Field that exist on page objects."
+		}		
+    ]
+}

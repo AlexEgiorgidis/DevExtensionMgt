@@ -1,0 +1,17 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "CRS.AlSubFolderName": "src",
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "al.enableCodeAnalysis": true,
+  "al.enableCodeActions": true,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${PerTenantExtensionCop}",
+    "${UICop}"
+  ],
+  "alOutline.autoGenerateFileDirectory": "\"src\\<ObjectTypeShortPascalCase>\"",
+  "al.ruleSetPath": "./.codeAnalysis/sg.ruleset.json",
+  "editor.minimap.scale": 3
+}

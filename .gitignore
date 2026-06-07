@@ -1,0 +1,7 @@
+**.alcache
+**.altemplates
+**.snapshots
+*rad.json
+*snapshots.json
+*permissionsAnalyzer.json
+*.g.xlf
